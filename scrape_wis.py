@@ -13,12 +13,12 @@ def get_dispatch_data():
         page.wait_for_selector("#Email")
 
         print("🧠 Typing in username...")
-        page.fill("#Email", "galichetty.karthik@wti.co.in")
+        page.fill("#Email", "WISX_USERNAME")
         page.keyboard.press("Tab")
         time.sleep(1)
 
         print("🔐 Typing in password...")
-        page.fill("#Password", "Karthik@135790")
+        page.fill("#Password", "WISX_PASSWORD")
 
         print("✅ Checking Remember Me...")
         page.check("#RememberMe")
